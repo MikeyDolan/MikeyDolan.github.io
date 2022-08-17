@@ -1,0 +1,30 @@
+.home_body{
+    background-color: black;
+}
+
+.background{
+    background-color: black;
+    height: 60%;
+    width: auto;
+}
+.home_header{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+.home_header h1{
+    color: white;
+    font-size: 325%;
+    padding-top: 10%;
+    padding-bottom: 0;
+    
+}
+.home_header h2{
+    font-size: 200%;
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+    
+    
+}
