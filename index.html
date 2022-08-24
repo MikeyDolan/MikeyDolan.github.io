@@ -6,6 +6,30 @@
     <link rel= "stylesheet" href="style.css">
     <title>Home</title>
 </head>
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">About Me</a>
+    <a href="#contact">Projects</a>
+    <a href="#about">Contact Me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
 <body class="home_body">
     <div id= "home_background" class="background">
         <div class="home_header">
@@ -13,6 +37,8 @@
             <h2>Computer Science Student</h2>
         </div>
     </div>
+
+    
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -26,9 +52,9 @@ VANTA.NET({
   minHeight: 200.00,
   minWidth: 200.00,
   scale: 1.00,
-  scaleMobile: 1.00,
+  scaleMobile: 0.5,
   color: 0x9de38,
-  backgroundColor: 0x131314,
+  backgroundColor: 0x0000,
   points: 16.00,
   showDots: false
 })
